@@ -1,5 +1,5 @@
 log←'./leap.tc.log'
-⍎ ')COPY ',(⎕FIO 30),'/../../test.apl'
+⊣⍎ ')COPY ',(⎕FIO 30),'/../../test.apl'
 
 test∆copy_relative 'leap.apl'
 test∆clear_log log

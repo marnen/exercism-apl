@@ -1,5 +1,5 @@
 log←'./hello-world.tc.log'
-⍎ ')COPY ',(⎕FIO 30),'/../../test.apl'
+⊣⍎ ')COPY ',(⎕FIO 30),'/../../test.apl'
 
 test∆copy_relative 'hello-world.apl'
 test∆clear_log log
